@@ -1,0 +1,50 @@
+.logo {
+  text-align: center;
+}
+
+.button-login {
+  background: #f4c679 !important;
+  color: white !important;
+}
+.svg-inline--fa.fa-w-14 {
+  width: 1.875em !important;
+}
+.back #arrow {
+  width: 1.875em !important;
+}
+
+#arrow {
+  width: 1.875em !important;
+  color: #f4c679 !important;
+}
+.welcome {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  color: #f4c679;
+}
+.raya {
+  height: 3px;
+  width: 100%;
+}
+.botones-abajo {
+  display: flex;
+  justify-content: space-between;
+}
+.box {
+  padding: 1rem;
+  background: #f4c679;
+  color: white;
+}
+.check {
+  color: #77d354 !important;
+  text-align: center;
+}
+
+.plus {
+  width: 100%;
+  text-align: right;
+  color: #f4c679;
+  margin-right: 6rem;
+  margin-top: 3rem;
+}
