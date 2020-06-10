@@ -1,4 +1,11 @@
-*{
-    margin: 0px;
-    padding: 0px;  
+* {
+  margin: 0px;
+  padding: 0px;
+}
+.contenedor {
+  height: 100vh;
+  overflow: hidden;
+}
+.cont-login {
+  height: 100%;
 }

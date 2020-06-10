@@ -1,7 +1,7 @@
 import React from 'react'
-
-import user from './img/usuario-default.png'
-import './style/login.css'
+import { NavLink } from "react-router-dom";
+import user from '../img/usuario-default.png'
+import '../style/login.css'
 // import { faHome } from "@fortawesome/free-solid-svg-icons";
 // import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
@@ -11,10 +11,12 @@ class welcome extends React.Component {
     render() {
         return <div>
             <div >
-
-                <FontAwesomeIcon id="arrow" icon={faArrowLeft} size="3x" />
+                <NavLink to="/" className="nav-link">
+                    <FontAwesomeIcon id="arrow" icon={faArrowLeft} size="3x" />
+                </NavLink>
             </div>
             <div className="logo mt-4">
+
                 <img src={user} alt="user" />
 
             </div>
