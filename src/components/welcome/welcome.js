@@ -10,7 +10,7 @@ import { faArrowLeft, faCheckSquare, faPlusCircle } from '@fortawesome/free-soli
 class welcome extends React.Component {
     render() {
         return <div>
-            <div >
+            <div className="hvr-wobble-horizontal">
                 <NavLink to="/" className="nav-link">
                     <FontAwesomeIcon id="arrow" icon={faArrowLeft} size="3x" />
                 </NavLink>
